@@ -153,3 +153,39 @@ body {
   align-self: flex-end;
   font-size: 18px;
 }
+
+.section-cta {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  padding: 48px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-title {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.cta-secondary {
+  font-size: 16px;
+  color: #f9faf8;
+}
+
+.cta-btn {
+  font-size: 18px;
+  padding: 8px 16px;
+  background-color: #3882f6;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.cta-btn a:link,
+.cta-btn a:visited {
+  color: #f9faf8;
+  text-decoration: none;
+}
