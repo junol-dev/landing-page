@@ -85,6 +85,11 @@ body {
   width: 150px;
 }
 
+.btn a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
 .hero-img {
   width: 600px;
   height: 300px;
@@ -123,4 +128,28 @@ body {
 .img-text-description {
   font-size: 18px;
   text-align: center;
+}
+
+/* QUOTE SECTION */
+
+.quote-background {
+  display: block;
+  background-color: #e5e7eb;
+}
+
+.section-quote {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px;
+}
+
+.quote-text {
+  font-size: 36px;
+  /* padding-top: 48px; */
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 18px;
 }
